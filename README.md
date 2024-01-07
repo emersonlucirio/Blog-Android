@@ -8,7 +8,7 @@ Este [projeto](https://emersonlucirio.github.io/Blog-Android/) foi desenvolvido 
 
 ## Agradecimentos
 
-Agradeço ao Professor Gustavo Guanabara por sua valiosa contribuição, didatica e expertise, que foram fundamentais para o sucesso deste projeto. Sua orientação desempenhou um papel crucial no meu crescimento profissional e no aprimoramento das minhas habilidades técnicas.
+Agradeço ao Professor [Gustavo Guanabara](https://github.com/gustavoguanabara) por sua valiosa contribuição, didatica e expertise, que foram fundamentais para o sucesso deste projeto. Sua orientação desempenhou um papel crucial no meu crescimento profissional e no aprimoramento das minhas habilidades técnicas.
 
 ## Como Contribuir
 
