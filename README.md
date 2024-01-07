@@ -1,6 +1,6 @@
 <img src="https://github.com/emersonlucirio/Blog-Android/assets/112041088/59cd88df-d3a6-4b7b-a458-f139fc33fc02" width="300">
 
-# Blog Android
+# Blog Android: História do Mascote do Android
 
 Este [projeto](https://emersonlucirio.github.io/Blog-Android/) foi desenvolvido durante as aulas de HTML5 e CSS3 módulo 2/5 [Curso em Video](https://www.cursoemvideo.com/). Gostaria de expressar minha sincera gratidão ao Professor Gustavo Guanabara, que gentilmente ofereceu sua mentoria e orientação durante todo o desenvolvimento deste projeto.
 
