@@ -1,5 +1,4 @@
-<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/72903324-cf57-4e90-80a6-ed3c9734e0ed" width="700">
-
+<img src="https://github.com/emersonlucirio/Blog-Android/assets/112041088/59cd88df-d3a6-4b7b-a458-f139fc33fc02" width="300">
 
 # Blog Android
 
@@ -14,3 +13,4 @@ Agradeço ao Professor Gustavo Guanabara por sua valiosa contribuição, didatic
 Se você estiver interessado em contribuir para este projeto, sinta-se à vontade para enviar pull requests e reportar problemas. Seu envolvimento é bem-vindo!
 
 
+<img src="https://github.com/emersonlucirio/Blog-Android/assets/112041088/9cbcc7f2-b326-4a03-92a1-f83e25963afd" width="400" height="300">
