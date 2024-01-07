@@ -1,3 +1,6 @@
+<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/72903324-cf57-4e90-80a6-ed3c9734e0ed" width="700">
+
+
 # Blog Android
 
 Este [projeto](https://emersonlucirio.github.io/Blog-Android/) foi desenvolvido durante as aulas de HTML5 e CSS3 módulo 2/5 [Curso em Video](https://www.cursoemvideo.com/). Gostaria de expressar minha sincera gratidão ao Professor Gustavo Guanabara, que gentilmente ofereceu sua mentoria e orientação durante todo o desenvolvimento deste projeto.
