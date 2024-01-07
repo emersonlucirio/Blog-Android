@@ -1,0 +1,367 @@
+@font-face {
+    font-family: 'android';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+/* font-family: android; */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #49F597;
+    padding: 0;
+    margin: 0;
+
+}
+
+header {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navegation {
+    padding: 0;
+    background: #1A5735;
+}
+
+.title {
+    padding: 33px;
+    color: white;
+    text-align: center;
+}
+
+.title h1 {
+    font-weight: bolder;
+    font-size: 45px;
+}
+
+.title p {
+    font-weight: normal;
+    font-size: 20px;
+    padding: 20px;
+    padding-top: 2em;
+}
+
+.quebra-linha {
+    display: block;
+    padding: 5px;
+}
+
+ul.menus {
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    height: 70px;
+    padding: 22px;
+    margin-top: -3.2em;
+}
+
+nav li {
+    width: 150px;
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 17px;
+    list-style: none;
+}
+
+nav a:hover {
+    border: 8px solid transparent;
+    background: #3DDB84;
+    color: #1A5735;
+
+
+}
+
+nav a {
+    border-radius: 5px;
+    transition: all 0.4s ease-in-out;
+    text-decoration: none;
+    color: white;
+
+}
+
+main {
+    border-radius: 6px;
+    max-width: 820px;
+    padding: 10px;
+    margin: -1.1em 15em 1em 15em;
+    margin-bottom: 20px;
+    background: white;
+}
+
+.conteudo h1 {
+    font-size: 26px;
+    padding: 15px;
+    color: #267F4E;
+    font-family: android;
+
+}
+
+.conteudo h2 {
+    font-size: 20px;
+    padding: 11px;
+    box-shadow: 5px 2px 12px #84e1ac70;
+    font-family: android;
+    background: #84e1ac86;
+    color: #32A868;
+}
+
+.conteudo p {
+    text-indent: 16px;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.img-androids img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+
+.img-criadora img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.img-bugdroid {
+    text-align: center;
+
+}
+
+.video-android {
+    margin: -10px;
+    padding: 20px;
+    text-align: center;
+    background: #32A868;
+
+}
+
+.conteudo-extra {
+    border-radius: 6px;
+    margin: 30px 8px 30px 8px;
+    background: #C5EBD6;
+}
+
+.conteudo-extra h3 {
+    padding: 15px 10px 13px 10px;
+    border-radius: 6px;
+    color: white;
+    background: #32A868;
+}
+
+.conteudo-extra p {
+    text-indent: 16px;
+    font-size: 19px;
+    font-weight: 600;
+    padding: 15px;
+}
+
+.conteudo-extra li {
+    padding: 0px 0px 0px 10px;
+}
+
+.conteudo-extra ol {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20%;
+    font-weight: bold;
+    list-style-type: none;
+
+}
+
+.conteudo-extra li::before {
+    content: "✓ ";
+    font-weight: bolder;
+
+}
+
+.fim-artigo {
+    text-indent: 16px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+footer {
+    height: 32px;
+    color: white;
+    text-align: center;
+    background: #1A5735;
+}
+
+footer p {
+    padding-top: 7px;
+    text-decoration: underline;
+}
+
+
+
+
+/*<<<<<<<<<< Area Media Query >>>>>>>>>>>>>>*/
+
+/* Mobile Devices */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 0px;
+        /* Adjust font size for better readability on small screens */
+    }
+
+    .title h1 {
+        font-size: 30px;
+        /* Adjust heading font size */
+    }
+
+    .title p {
+        font-size: 13px;
+        /* Adjust paragraph font size */
+    }
+
+    .quebra-linha {
+        display: block;
+        padding: 5px;
+    }
+
+    ul.menus {
+        height: auto;
+        flex-direction: row;
+        align-items: center;
+        padding: 15px;
+        margin-top: -42px;
+    }
+
+    nav li {
+        width: auto;
+        margin-bottom: 10px;
+    }
+
+    nav a:hover {
+        border: 0px solid transparent;
+    }
+
+    nav a {
+        display: inline-block;
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+        font-size: 10px;
+        transition: all 0.6s ease-in-out;
+    }
+
+    main {
+        margin-top: -27px;
+    }
+
+    
+    .img-androids {
+        text-align: center;
+        max-width: 600px; /* Ajuste conforme necessário */
+        margin: 0 auto;
+      }
+
+    .img-criadora {
+        text-align: center;
+        max-width: 600px; /* Ajuste conforme necessário */
+        margin: 0 auto;
+    }
+
+
+    .video-android {
+        position: relative;
+        width: 100%;
+        padding-bottom: 56.25%;
+        /* Proporção 16:9, ajuste conforme necessário */
+        margin-left: 5px;
+        overflow: hidden;
+    }
+
+    .video-android iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .conteudo h1 {
+        font-size: 20px;
+        /* Adjust heading font size */
+    }
+
+    .conteudo h2 {
+        font-size: 15px;
+    }
+
+    .conteudo p {
+        margin-bottom: 10px;
+        font-size: 16px;
+        /* Adjust paragraph font size */
+    }
+
+    .conteudo-extra ol {
+        font-size: 15px;
+    }
+
+    .conteudo-extra h3 {
+        font-size: 18px;
+        /* Adjust heading font size */
+    }
+
+    .conteudo-extra p {
+        font-size: 16px;
+        /* Adjust paragraph font size */
+    }
+
+    .fim-artigo {
+        font-size: 16px;
+    }
+
+    footer p {
+        font-size: 13px;
+    }
+}
+
+/* Tablets */
+@media screen and (min-width: 768px) and (max-width: 1251px) {
+
+    main {
+        margin: -1.1em 7em 1em 7em
+    }
+
+    .video-android {
+        position: relative;
+        width: 100%;
+        padding-bottom: 56.25%;
+        /* Proporção 16:9, ajuste conforme necessário */
+        margin-left: 5px;
+        overflow: hidden;
+    }
+
+    .video-android iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* Small Desktops and Laptops */
+@media screen and (min-width: 1024px) and (max-width: 1919px) {
+    /* Add specific styles for small desktops and laptops if needed */
+}
+
+/* Large Desktops */
+@media screen and (min-width: 1920px) {
+    /* Add specific styles for large desktops if needed */
+}
