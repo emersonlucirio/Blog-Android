@@ -1,6 +1,6 @@
 <img src="https://github.com/emersonlucirio/Blog-Android/assets/112041088/59cd88df-d3a6-4b7b-a458-f139fc33fc02" width="300">
 
-# Blog Android: História do Mascote do Android
+# Blog Android: História do Mascote do Android <img src="https://github.com/emersonlucirio/Blog-Android/assets/112041088/696426a4-7743-4054-a962-ae62cdb0e6b2"  width="250">
 
 <<<<<<<<<<<<<<<[**OBS: PROJETO AINDA EM DESENVOLVIMENTO**]>>>>>>>>>>>>>>>>>>
 
