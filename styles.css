@@ -200,9 +200,14 @@ footer {
     background: #1A5735;
 }
 
+footer a {
+    color: #4aff9b;
+
+}
+
 footer p {
     padding-top: 7px;
-    text-decoration: underline;
+    
 }
 
 
