@@ -96,6 +96,18 @@ main {
     background: white;
 }
 
+main a:hover {
+    text-decoration: underline;
+}
+
+
+main a {
+    text-decoration: none;
+    color: #1A5735;
+    background-color: #3DDB84;
+}
+
+
 .conteudo h1 {
     font-size: 26px;
     padding: 15px;
@@ -107,9 +119,8 @@ main {
 .conteudo h2 {
     font-size: 20px;
     padding: 11px;
-    box-shadow: 5px 2px 12px #84e1ac70;
     font-family: android;
-    background: #84e1ac86;
+    background-image: linear-gradient(50deg, #84e1ac86, transparent);
     color: #32A868;
 }
 
