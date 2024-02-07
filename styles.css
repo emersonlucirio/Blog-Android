@@ -98,6 +98,7 @@ main {
 
 main a:hover {
     text-decoration: underline;
+    background-color: #4aff9b;
 }
 
 
