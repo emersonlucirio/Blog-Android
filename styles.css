@@ -55,6 +55,7 @@ nav ul {
     position: relative;
     bottom: 25px;
     left: 20px;
+    width: 80%;
 
 }
 
@@ -146,8 +147,7 @@ main a {
     margin: -10px;
     padding: 20px;
     text-align: center;
-    background: var(--color9);
-
+    background: var(--color2);
 }
 
 .conteudo-extra {
