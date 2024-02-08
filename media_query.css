@@ -1,0 +1,142 @@
+/* Mobile Devices */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 0px;
+
+    }
+
+    .title h1 {
+        font-size: 30px;
+    }
+
+    .title p {
+        font-size: 13px;
+        line-height: 20px;
+        padding-bottom: 30px;
+    }
+
+    .quebra-linha {
+        display: block;
+        padding: 5px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        list-style-type: none;
+        position: relative;
+        bottom: 36px;
+        left: 25px;
+        width: 80%;
+
+    }
+
+    nav ul li a {
+        width: 100%;
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    main {
+        margin-top: -27px;
+    }
+
+
+    .img-androids {
+        text-align: center;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .img-criadora {
+        text-align: center;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+
+    .video-android {
+        position: relative;
+        width: 100%;
+        padding-bottom: 56.25%;
+        margin-left: 5px;
+        overflow: hidden;
+    }
+
+    .video-android iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .conteudo h1 {
+        font-size: 20px;
+    }
+
+    .conteudo h2 {
+        font-size: 15px;
+    }
+
+    .conteudo p {
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+
+    .conteudo-extra ol {
+        font-size: 15px;
+    }
+
+    .conteudo-extra h3 {
+        font-size: 18px;
+    }
+
+    .conteudo-extra p {
+        font-size: 16px;
+    
+    }
+
+    .fim-artigo {
+        font-size: 16px;
+    }
+
+    footer p {
+        font-size: 13px;
+    }
+}
+
+/* Tablets */
+@media screen and (min-width: 768px) and (max-width: 1251px) {
+
+    main {
+        margin: -1.1em 7em 1em 7em
+    }
+
+    .video-android {
+        position: relative;
+        width: 100%;
+        padding-bottom: 56.25%;
+        margin-left: 5px;
+        overflow: hidden;
+    }
+
+    .video-android iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* Small Desktops and Laptops */
+@media screen and (min-width: 1024px) and (max-width: 1919px) {
+    /* Add specific styles for small desktops and laptops if needed */
+}
+
+/* Large Desktops */
+@media screen and (min-width: 1920px) {
+    /* Add specific styles for large desktops if needed */
+}

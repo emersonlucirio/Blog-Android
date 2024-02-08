@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'android';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+
+:root {
+    --font-title: 'android';
+    --font-conteudo: 'Montserrat', sans-serif;
+
+    --color1: #49F597;
+    --color2: #1A5735;
+    --color3: rgba(0, 0, 0, 0.486);
+    --color4: #fff;
+    --color5: #3DDB84;
+    --color6: #4aff9b;
+    --color7: #267F4E;
+    --color8: #84e1ac86;
+    --color9: #32A868;
+    --color10: #C5EBD6;
+    --color11: rgba(0, 0, 0, 0.363);
+    --color12: #4aff9b;
+
+}
