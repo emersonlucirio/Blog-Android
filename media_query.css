@@ -6,13 +6,14 @@
     }
 
     .title h1 {
-        font-size: 30px;
+        font-size: 40px;
     }
 
     .title p {
         font-size: 13px;
         line-height: 20px;
         padding-bottom: 30px;
+        word-break: normal;
     }
 
     .quebra-linha {
@@ -26,7 +27,7 @@
         gap: 10px;
         list-style-type: none;
         position: relative;
-        bottom: 36px;
+        bottom: 20px;
         left: 25px;
         width: 80%;
 
@@ -36,10 +37,13 @@
         width: 100%;
         padding: 10px;
         font-size: 10px;
+
     }
 
     main {
-        margin-top: -27px;
+        margin: -8px;
+        padding-bottom: 50px;
+        width: 100%;
     }
 
 
@@ -95,11 +99,12 @@
 
     .conteudo-extra p {
         font-size: 16px;
-    
+
     }
 
     .fim-artigo {
         font-size: 16px;
+        line-height: 25px;
     }
 
     footer p {
@@ -139,4 +144,15 @@
 /* Large Desktops */
 @media screen and (min-width: 1920px) {
     /* Add specific styles for large desktops if needed */
+}
+
+@media only screen and (max-width: 926px) and (orientation: landscape) {
+    header .title p{
+        padding-bottom: 55px;
+    }
+
+    main {
+        max-width: 100%;
+        margin: auto;
+    }
 }
