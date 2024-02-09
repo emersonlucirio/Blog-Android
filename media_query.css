@@ -1,5 +1,6 @@
+
 /* Mobile Devices */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 762px) {
     body {
         font-size: 0px;
 
@@ -42,8 +43,9 @@
 
     main {
         margin: -8px;
+        margin-top: -10px;
         padding-bottom: 50px;
-        width: 100%;
+        width: 102%;
     }
 
 
@@ -112,11 +114,28 @@
     }
 }
 
-/* Tablets */
-@media screen and (min-width: 768px) and (max-width: 1251px) {
+/* Mobile landscape */
+@media only screen and (max-width: 926px) and (orientation: landscape) {
+    header .title p{
+        padding-bottom: 55px;
+    }
 
     main {
-        margin: -1.1em 7em 1em 7em
+        max-width: 100%;
+        margin: auto;
+    }
+}
+
+
+
+/* Tablets */
+@media screen and (min-width: 768px) and (max-width: 1180px) {
+
+    main {
+        margin: -21px auto;
+        padding-bottom: 50px;
+        max-width: 100%;
+        
     }
 
     .video-android {
@@ -136,23 +155,19 @@
     }
 }
 
-/* Small Desktops and Laptops */
-@media screen and (min-width: 1024px) and (max-width: 1919px) {
-    /* Add specific styles for small desktops and laptops if needed */
-}
-
-/* Large Desktops */
-@media screen and (min-width: 1920px) {
-    /* Add specific styles for large desktops if needed */
-}
-
-@media only screen and (max-width: 926px) and (orientation: landscape) {
-    header .title p{
-        padding-bottom: 55px;
-    }
-
+/* Tablets landscape */
+@media only screen and (max-width: 1280px) and (orientation: landscape) {
     main {
-        max-width: 100%;
-        margin: auto;
+        
+        width: 100%;
+        margin: -20px auto;
+    }
+    
+}
+
+
+@media (width: 320px) {
+    nav ul li a {
+        font-size: 8px;
     }
 }
