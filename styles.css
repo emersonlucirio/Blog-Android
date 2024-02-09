@@ -201,6 +201,7 @@ footer {
     color: var(--color4);
     text-align: center;
     background: var(--color2);
+    padding: 25px;
 }
 
 footer a {
@@ -209,6 +210,7 @@ footer a {
 }
 
 footer p {
-    padding-top: 7px;
+    position: relative;
+    bottom: 9px;
 
 }
