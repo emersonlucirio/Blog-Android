@@ -155,6 +155,16 @@
     }
 }
 
+/* Telas grandes (como um monitor de 21") */
+@media (min-width: 1201px) {
+    main {
+        margin: -21px auto;
+        padding-bottom: 50px;
+        max-width: 100%;
+        
+    }
+}
+
 /* Tablets landscape */
 @media only screen and (max-width: 1280px) and (orientation: landscape) {
     main {
